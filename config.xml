@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+        xmlns:rim="http://www.blackberry.com/ns/widgets"
+        version="1.0.0.0" id="HelloWorldApp"> 
+    <name>Hello World</name>
+    <author>My name</author>
+    <description>Hello World location display</description>
+    <icon src="images/icon.png"/>
+    <content src="http://www.agunlimited.com/adcon/gatewaystatus.php"/>
+    <access uri="*" subdomains="true"></access>
+    <rim:permissions> 
+        <rim:permit>read_geolocation</rim:permit>
+    </rim:permissions>   
+  <debug_token>/Developer/SDKs/Research\ In\ Motion/BlackBerry\ 10\ WebWorks\ SDK\ 1.0.4.5/dependencies/tools/bin/debug_token_sample.bar</debug_token>
+</widget>
